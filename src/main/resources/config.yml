@@ -1,0 +1,29 @@
+#SimpleBackpack 1.0.0 by Tiaki
+#If you need any help with the plugin join my discord server and make a ticket dsc.gg/arkadiasmp
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    SimpleBackpack                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+backpack:
+
+
+#the size of the back pack in slots
+  size: 27
+
+
+#the name of the backpack. You can use & color codes.
+  name: "&6&lYour backpack"
+
+
+#the message send to player that opens the backpack. You can also use & color codes
+  message_on_open: "&6&l(!) &6You opened the backpack."
+
+
+  sound_on_open:
+#The sound when the backpack is opened. You can find list of all sounds here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+    sound: "ENTITY_PLAYER_LEVELUP"
+    volume: 1.0
+    pitch: 1.0

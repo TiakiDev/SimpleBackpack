@@ -1,0 +1,14 @@
+name: SimpleBackpack
+description: This plugin adds player backpack
+author: Tiaki
+version: '1.0.0'
+main: pl.arkadiasmp.simplebackpack.SimpleBackpack
+api-version: '1.21'
+commands:
+  backpack:
+    description: Opens player backpack
+    usage: /backpack
+permissions:
+  backpackplugin.use:
+    description:
+    default: true
